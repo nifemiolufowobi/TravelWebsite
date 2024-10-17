@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Ideal Trip</title>
+</head>
+<body>
+    <h2>Question 1: What type of traveler are you?</h2>
+    <form action="/server.php">
+        <label for="id1">
+            <input type="radio" value="Family" name="travel" id="id1">Family
+        </label>
+        <label for="id2">
+            <input type="radio" value="Solo" name="travel" id="id2"> Solo
+        </label>
+
+    </form>
+    <h2>Question 2: What time of the year do you often travel?</h2>
+    <form action="/server.php">
+        <label for="id1">
+            <input type="radio" value="Spring" name="season" id="id1">Spring (March-May)
+        </label>
+        <label for="id2">
+            <input type="radio" value="Fall" name="season" id="id2"> Fall (September-Novemeber)
+        </label>
+        <label for="id3">
+            <input type="radio" value="Winter" name="season" id="id3"> Winter (December-February)
+        </label>
+        <label for="id4">
+            <input type="radio" value="Summer" name="season" id="id4"> Summer (June-August)
+        </label>
+
+    </form>
+    <h2>Question 3: What is your prefered travel destination?</h2>
+    <form action="/server.php">
+        <label for="id1">
+            <input type="radio" value="Beach" name="Destinantions" id="id1">Beach
+        </label>
+        <label for="id2">
+            <input type="radio" value="City" name="Destinantions" id="id2"> City
+        </label>   
+    </form>
+
+    <h2>Question 4: What activities do you enjoy while traveling?</h2>
+    <form action="/server.php">
+        <label for="id1">
+            <input type="radio" value="Hiking" name="Activity" id="id1"> Hiking
+        </label>
+        <label for="id2">
+            <input type="radio" value="Shopping" name="Activity" id="id2"> Shopping
+        </label>
+        <label for="id3">
+            <input type="radio" value="Dining" name="Activity" id="id3"> Dining
+        </label>
+        <label for="id4">
+            <input type="radio" value="Museums" name="Activity" id="id4"> Museums
+        </label>
+    </form>
+    <h2>Question 5: Whats your Budget?</h2>
+    <form action="/server.php">
+        <label for="id1">
+            <input type="radio" value="Female" name="Budget" id="id1">Low (under 1,000)
+        </label>
+        <label for="id2">
+            <input type="radio" value="" name="Budget" id="id2"> Moderate (1,000-3,000)
+        </label>
+        <label for="id3">
+            <input type="radio" value="" name="Budget" id="id2"> High (3,000+)
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
