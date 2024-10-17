@@ -10,6 +10,21 @@ body{
     background-color: rgb(201, 228, 245);
 }
 #id1{
-    text-alight:center;
+    text-align:center;
     
+}
+.images{
+    display:inline;
+    margin-left: 28px;
+}
+.para{
+    border-style: double;
+    border-width: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+.group{
+    text-align: right;
 }
