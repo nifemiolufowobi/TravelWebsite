@@ -1,0 +1,63 @@
+header{
+    color:black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: georgia;
+    text-transform: uppercase;
+}
+body{
+    background-color: rgb(176, 196, 222);
+}
+#id1{
+    text-align:center;
+    text-transform:uppercase;
+    background-color:white ;
+    
+}
+.images{
+    display:inline;
+    margin-left: 28px;
+}
+.para{
+    border-style: double;
+    border-width: 10px;
+    padding: 10px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+#id2{
+    margin-left: 18%;
+}
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+}
+.div1{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+.classus{
+    text-align: center;
+
+}
+h3 {
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.div2{
+    margin-top: 0px;
+    background-color: white;
+    color:black
+
+}
