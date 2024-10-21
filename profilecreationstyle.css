@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(6, 25, 49);
+    height:35px ;
+    padding: 5px;
+    text-align: center;
+}
+nav ul li{
+list-style: none;
+display: inline;
+text-align: center;
+font-family: Georgia
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 5%;
+    color: white;
+    text-align: center;
+    font-family: Georgia
+}
+body{
+    font-family: Georgia;
+    background-color: rgb(176, 196, 222);
+}
+.title{
+    text-align: center;
+    font-size: 70px;
+}
+.image{
+    text-align: center;
+}
