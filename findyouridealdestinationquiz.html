@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Ideal Trip</title>
+    <link rel="stylesheet" href="findyouridealdestination.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5502/Travel%20Website.html">Home Page</a></li>
+                <li><a href="http://127.0.0.1:5502/profilecreation.html">Create Your Profile</a></li>
+                <li><a href="google.com">Transportation</a></li>
+                <li><a href="google.com">Accomodations</a></li>
+                <li><a href="google.com">Contact Us</a></li>
+                <li><input type="text" placeholder="Search"></li>
+                <li><button>Search</button></li>
+            </ul>
+        </nav>
+    </header>
+<form action="/server">
+<h3>Question 1: What type of traveler are you?</h3>
+  <div class="Radio-btn"></div>
+<label for="1d1">
+<input type="radio" value="Solo Traveler" name="city" id="101"> Solo Traveler
+</label>
+<label for="1d2">
+<input type="radio" value="Family Vacationer" name="city" id="102"> Family Vacationer
+</label>
+<label for="1d3">
+    <input type="radio" value="Adeventure Seeker" name="city" id="102"> Adeventure Seeker
+    </label>
+    <label for="1d4">
+        <input type="radio" value="Trenton" name="city" id="102"> Trenton
+        </label>
+  <h3>Question 2: What time of the year do you often travel?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Spring (March-May)" name="city" id="101"> Spring (March-May)
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Summer (June-August)" name="city" id="102"> Summer (June-August)
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Fall(September-Novemeber)" name="city" id="102"> Fall(September-Novemeber)
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Winter(December-February)" name="city" id="102"> Winter(December-February)
+          </label>
+  <h3>Question 3: What is your prefered travel destination?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="City" name="city" id="101"> City
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Beach" name="city" id="102"> Beach
+  </label>
+  <!--I think you should erase the 2 choices below because we only doing city 
+  and beaches for destinations-erica-->
+  <label for="1d3">
+      <input type="radio" value="Mountains" name="city" id="102"> Mountains
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Countryside" name="city" id="102"> Countryside
+          </label>
+  <h3>Question 4: What is your ideal travel duration?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="A Weekend" name="city" id="101"> A Weekend
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Couple of Days" name="city" id="102"> Couple of Days
+  </label>
+  <label for="1d3">
+      <input type="radio" value="2-3 weeks" name="city" id="102"> 2-3 weeks
+      </label>
+      <label for="1d4">
+          <input type="radio" value="A month" name="city" id="102"> A month
+          </label>
+  <h3>Question 5: What is your prefered method of transportation?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Plane" name="city" id="101"> Plane
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Train" name="city" id="102"> Train
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Car" name="city" id="102"> Car
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Bus" name="city" id="102"> Bus
+          </label>
+  <h3>Question 6: What is your main travel priority?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Relaxation" name="city" id="101"> Relaxation
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Sightseeing" name="city" id="102"> Sightseeing
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Adventure" name="city" id="102"> Adventure
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Cultural Experiences" name="city" id="102"> Cultural Experiences
+          </label>
+  <h3>Question 7: What activities do you enjoy while traveling?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Hiking" name="city" id="101"> Hiking
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Shopping" name="city" id="102"> Shopping
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Dining" name="city" id="102"> Dining
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Museums" name="city" id="102"> Museums
+          </label>
+  <h3>Question 8: What are your preferred accommodation?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Hotel" name="city" id="101"> Hotel
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Airbnb" name="city" id="102"> Airbnb
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Hostel" name="city" id="102"> Hostel
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Resort" name="city" id="102"> Resort
+          </label>
+  <h3>Question 9: How much do you typically spent on travel?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Budget (Under $1,000)" name="city" id="101"> Budget (Under $1,000)
+  </label>
+  <label for="1d2">
+  <input type="radio" value="Moderate ($1,000-$3,000)" name="city" id="102"> Moderate ($1,000-$3,000)
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Midrange($3,000-$5,000)" name="city" id="102"> Midrange($3,000-$5,000)
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Luxury (Over $$5,000)" name="city" id="102"> Luxury (Over $$5,000)
+          </label>
+    <!--I think the question below should be erased-erica-->
+  <h3>Question 10: How do you prefer to plan your trip?</h3>
+  <div class="Radio-btn"></div>
+  <label for="1d1">
+  <input type="radio" value="Pre-Packaged Tours" name="city" id="101"> Pre-Packaged Tours
+  </label>
+  <label for="1d2">
+  <input type="radio" value="DIY Travel Planning" name="city" id="102"> DIY Travel Planning
+  </label>
+  <label for="1d3">
+      <input type="radio" value="Travel Agent" name="city" id="102"> Travel Agent
+      </label>
+      <label for="1d4">
+          <input type="radio" value="Flexibe Schedule" name="city" id="102"> Flexibe Schedule
+          </label>
+          <br><br>
+<input type="submit" value="Submit">
+
+</form>  
+</body>
+</html>
