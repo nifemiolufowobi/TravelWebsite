@@ -24,7 +24,16 @@ body{
 .title{
     text-align: center;
     font-size: 70px;
+    color:rgb(6, 25, 49);
+}
+div{
+    margin-right: 180px;
+    margin-top: 100px;
+    display: inline-block;
+    color:rgb(6, 25, 49);
+    font-size: 28px;
 }
 .image{
-    text-align: center;
+    display: inline-block;
+    width:700px
 }

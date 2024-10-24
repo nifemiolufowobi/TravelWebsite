@@ -21,3 +21,9 @@ nav ul li a{
     text-align: center;
     font-family: Georgia
 }
+.title{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(6, 25, 49);
+    font-family: Georgia
+}
