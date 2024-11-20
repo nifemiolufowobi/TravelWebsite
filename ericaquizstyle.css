@@ -1,0 +1,11 @@
+h2{
+    text-decoration:wavy;
+    color: black;
+    width: fit-content;
+    background-color: white;
+
+}
+body{
+    background-color: rgb(176, 196, 222);
+    color: black;
+}

@@ -5,6 +5,9 @@ header{
     font-weight: bold;
     font-family: georgia;
     text-transform: uppercase;
+    width: 100%;
+    position: fixed;
+    top:0px;
 }
 body{
     background-color: rgb(176, 196, 222);
